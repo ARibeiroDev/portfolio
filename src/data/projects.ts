@@ -13,16 +13,24 @@ export const projects = [
     ],
     liveLink: "https://mern-app-repairshop.onrender.com/",
     sourceLink: "https://github.com/ARibeiroDev/mern-app-repairshop",
-    image: "img/mern.webp",
+    image: "/img/mern.webp",
   },
   {
     title: "Dishcovery - AI Recipe Generator",
     description:
-      "React app that generates recipe recommendations based on ingredients provided by the user.",
-    skills: ["React", "Tailwind CSS", "JavaScript", "Vite"],
-    liveLink: "https://dishcovery-recipe-generator.onrender.com/",
-    sourceLink: "https://github.com/ARibeiroDev/dishcovery-recipe-generator",
-    image: "img/dishcovery.png",
+      "Full-stack React + Express app that generates recipes based on ingredients provided by the user, with OpenRouter AI integration, server-side rate limiting, and input validation.",
+    skills: [
+      "React",
+      "TypeScript",
+      "Tailwind CSS",
+      "Node.js",
+      "Express",
+      "Vite",
+    ],
+    liveLink: "https://dishcovery-recipe-generator-fs.onrender.com/",
+    sourceLink:
+      "https://github.com/ARibeiroDev/dishcovery-recipe-generator-full-stack",
+    image: "/img/dishcovery.png",
   },
   {
     title: "React Movie App",
@@ -31,7 +39,7 @@ export const projects = [
     skills: ["React", "TypeScript", "Tailwind CSS", "Vite"],
     liveLink: "https://react-typescript-movie-app.onrender.com/",
     sourceLink: "https://github.com/ARibeiroDev/react-ts-movie-app",
-    image: "img/movie.webp",
+    image: "/img/movie.webp",
   },
   {
     title: "React To-Do List App",
@@ -40,7 +48,7 @@ export const projects = [
     skills: ["React", "CSS", "JavaScript"],
     liveLink: "https://aribeirodev.github.io/react-practice/",
     sourceLink: "https://github.com/ARibeiroDev/react-practice",
-    image: "img/react.png",
+    image: "/img/react.png",
   },
   {
     title: "Acme Rockets",
@@ -49,7 +57,7 @@ export const projects = [
     skills: ["Tailwind CSS", "HTML", "JavaScript"],
     liveLink: "https://tailwind-practice-9jq3.onrender.com/",
     sourceLink: "https://github.com/ARibeiroDev/tailwind-practice",
-    image: "img/tailwind.webp",
+    image: "/img/tailwind.webp",
   },
   {
     title: "CoSpaces.",
@@ -58,6 +66,6 @@ export const projects = [
     skills: ["HTML", "CSS", "JavaScript"],
     liveLink: "https://aribeirodev.github.io/works/",
     sourceLink: "https://github.com/ARibeiroDev/works",
-    image: "img/works.webp",
+    image: "/img/works.webp",
   },
 ];
