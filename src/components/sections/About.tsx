@@ -13,9 +13,15 @@ const About = () => {
     "Angular",
   ];
 
-  const backendSkills = ["Node.js", "Express", "MongoDB", "REST API"];
+  const backendSkills = [
+    "Node.js",
+    "Express",
+    "MongoDB",
+    "PostgreSQL",
+    "REST API",
+  ];
 
-  const tools = ["VSCode", "npm", "Git", "GitHub", "Vite"];
+  const tools = ["VSCode", "npm", "Git", "GitHub", "Vite", "PgAdmin", "Vitest"];
 
   return (
     <>
