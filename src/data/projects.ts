@@ -1,5 +1,21 @@
 export const projects = [
   {
+    title: "Auth/User/Products API",
+    description:
+      "A complete backend for an online store with swagger documentation and UI. Supports user authentication (register, verify, login, logout, password reset) and full product management (create, read, update, delete).",
+    skills: [
+      "TypeScript",
+      "Node.js",
+      "Express",
+      "MongoDB",
+      "Swagger",
+      "Vitest",
+    ],
+    liveLink: "https://store-user-product-api.onrender.com/",
+    sourceLink: "https://github.com/ARibeiroDev/user-product-api",
+    image: "/img/store_api.png",
+  },
+  {
     title: "TechNotes",
     description:
       "Full-stack note management app with role-based access, built with the MERN stack and Redux Toolkit. Includes note creation, editing, assignment, and dashboard features.",
