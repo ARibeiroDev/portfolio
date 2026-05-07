@@ -3,6 +3,7 @@ import SkillPill from "../ui/SkillPill";
 const About = () => {
   const frontendSkills = [
     "React",
+    "Next.js",
     "Javascript (ES6+)",
     "TypeScript",
     "TailwindCSS",
@@ -15,13 +16,15 @@ const About = () => {
 
   const backendSkills = [
     "Node.js",
+    "NestJS",
     "Express",
+    "Prisma ORM",
     "MongoDB",
     "PostgreSQL",
-    "REST API",
+    "REST API Design"
   ];
 
-  const tools = ["VSCode", "npm", "Git", "GitHub", "Vite", "PgAdmin", "Vitest"];
+  const tools = ["VSCode", "npm", "Git", "GitHub", "Vite", "PgAdmin", "Vitest", "Neon (serverless Postgres)"];
 
   return (
     <>
