@@ -34,10 +34,8 @@ const About = () => {
 
       <div className="rounded-xl p-8 border-white/10 border hover:-translate-y-1 transition-all">
         <p className="text-gray-300 mb-6">
-          I'm a full-stack web developer focused on building fast, modern, and
-          scalable applications.
-          <br /> I prioritize semantic, clean, maintainable code, craft
-          intuitive interfaces, and develop reliable backend services.
+          I’m a backend-focused full-stack developer who enjoys building reliable and scalable systems. <br />
+          I care about clean architecture, secure APIs, and maintainable code. I also work with frontend technologies like React and Next.js to deliver complete applications when needed.
         </p>
 
         <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
