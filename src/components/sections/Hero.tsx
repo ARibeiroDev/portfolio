@@ -16,9 +16,8 @@ const Hero = () => {
         </h4>
 
         <p className="text-gray-400 text-lg mb-8 max-w-lg mx-auto">
-          I build fast, clean and scalable web applications using TypeScript,
-          React and modern backend technologies. I focus on performance, clean
-          UI, and smooth user experiences.
+          I build fast, reliable and scalable web applications using TypeScript and modern backend technologies.
+          I focus on backend architecture, API design, performance, and secure system development, while also delivering functional frontend interfaces when needed.
         </p>
 
         <div
