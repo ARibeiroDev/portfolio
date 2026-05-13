@@ -5,7 +5,7 @@ export interface ProjectProps {
   title: string;
   description: string;
   skills: string[];
-  liveLink: string;
+  liveLink: string | null;
   sourceLink: string;
   image?: string;
 }
@@ -36,15 +36,21 @@ const ProjectCard = ({
         ))}
       </section>
       <section className="flex flex-col flex-1 items-start justify-end">
-        <a
-          href={liveLink}
-          target="_blank"
-          rel="noopener noreferrer"
-          referrerPolicy="no-referrer"
-          className="flex items-center gap-2 text-blue-400 hover:animate-pulse transition-colors my-2"
-        >
-          Live Project <FaArrowRight />
-        </a>
+        {liveLink ? (
+          <a
+            href={liveLink}
+            target="_blank"
+            rel="noopener noreferrer"
+            referrerPolicy="no-referrer"
+            className="flex items-center gap-2 text-blue-400 hover:animate-pulse transition-colors my-2"
+          >
+            Live Project <FaArrowRight />
+          </a>
+        ) : (
+          <p className="flex items-center gap-2 text-gray-500 my-2 cursor-not-allowed">
+            Live Project <span className="text-xs">(Coming soon)</span>
+          </p>
+        )}
         <a
           href={sourceLink}
           target="_blank"
