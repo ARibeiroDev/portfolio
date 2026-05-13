@@ -1,5 +1,24 @@
 export const projects = [
   {
+    title: "ClothingCo (Full-Stack E-commerce)",
+    description:
+      "Full-stack e-commerce application with a NestJS backend and a Next.js frontend. Implements secure authentication with JWT access/refresh token rotation and reuse detection, product variants (size/color), cart system with stock validation and transactional consistency. (Currently in active development)",
+    skills: [
+      "Next.js",
+      "TypeScript",
+      "Tailwind CSS",
+      "Zustand",
+      "NestJS",
+      "Prisma",
+      "PostgreSQL",
+      "JWT/Passport-JWT",
+      "Swagger",
+    ],
+    liveLink: "",
+    sourceLink: "https://github.com/ARibeiroDev/E-Commerce-Next.js-Frontend",
+    image: "/img/clothingco.png",
+  },
+  {
     title: "Auth/User/Products API",
     description:
       "A complete backend for an online store with swagger documentation and UI. Supports user authentication (register, verify, login, logout, password reset) and full product management (create, read, update, delete).",
